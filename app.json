@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "clone-carteirinha-usp",
-    "slug": "snack-e53d8d91-b8f6-41fb-8c72-7670c6001f90",
+    "slug": "clone-ecard-usp",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -13,17 +13,23 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.guivicentep.cloneecardusp"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "package": "com.guivicentep.cloneecardusp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "seu-project-id-aqui"
+      }
     }
   }
 }
